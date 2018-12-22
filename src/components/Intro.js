@@ -31,7 +31,7 @@ const Intro = (props) => {
             This app provides a fully integrated,
             decentralized, scalable infrastructure,
             with peer-to-peer functionality. The user
-            is able to connect though a distributed system,
+            is able to connect through a distributed system,
             optimized with the latest machine learning tech.
             This allows for a reliable network, by which, the
             user can out-source their activism through our

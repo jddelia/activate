@@ -80,15 +80,9 @@ header {
     top: 0%;
 }
 
-.logo-text {
-  position: relative;
-    text-align: center;
-  padding-top: 19%;
-  margin-left: 1%;
-  font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
-  letter-spacing: 6px;
-  font-variant: small-caps;
+.logo img {
+  height: 500px;
+  width: 500px;
 }
 
 .navbar {
@@ -198,7 +192,7 @@ header {
 .more-reviews {
   display: flex;
   justify-content: center;
-  padding-top: 4%;
+  padding-top: 8%;
 }
 
 .reviews-btn {
@@ -388,4 +382,188 @@ footer h4 {
   font-weight: 100;
   letter-spacing: 2px;
   color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+  }
+  .logo {
+    padding-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .logo img {
+    height: 400px;
+    width: 350px;
+  }
+  .nav-right {
+    margin-right: 10%;
+    align-self: center;
+  }
+  .desc-title {
+    padding-top: 4%;
+    font-size: 18px;
+    font-weight: 100;
+  }
+  .desc-text {
+    padding: 5%;
+    font-size: 16px;
+    line-height: 1.1;
+  }
+  .user-comment {
+    display: flex;
+    justify-content: center;
+    height: 30%;
+    padding-top: 4%;
+  }
+  .user-comment p {
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1;
+  }
+  .more-reviews {
+    display: flex;
+    justify-content: center;
+    padding-top: 60%;
+  }
+  .reviews-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    background-color: #77f;
+    border: 1px solid #77f;
+    border-radius: 4px;
+    height: 40px;
+    width: 150px;
+    font-weight: 300;
+    font-size: 16px;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    box-shadow: 1px 1px 4px #77f;
+  }
+  .features {
+    height: 200px;
+    padding: 4% 0 0 4%;
+    display: flex;
+    flex-direction: column;
+  }
+  .features h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 100;
+    letter-spacing: 2px;
+  }
+  .feat-types {
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .likes {
+    padding-top: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .likes i {
+    align-self: center;
+    color: #f44;
+    font-size: 72px;
+  }
+  .likes p {
+    display: none;
+  }
+  .cause {
+    padding-top: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .cause i {
+    align-self: center;
+    color: #447;
+    font-size: 72px;
+  }
+  .cause p {
+    display: none;
+  }
+  .share {
+    padding-top: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .share i {
+    color: #555;
+    font-size: 72px;
+  }
+  .share p {
+    display: none;
+  }
+  .pricing {
+    height: 600px;
+    padding: 4%;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+  }
+  .pricing h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 100;
+    letter-spacing: 2px;
+  }
+  .price-tiers {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .price-tiers h2 {
+    text-align: center;
+    padding-top: 4%;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+  }
+  .lite {
+    width: 30%;
+    height: 60%;
+    border: 1px solid #fff;
+    border-right-color: silver;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  .future-leader {
+    width: 35%;
+    height: 80%;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  .foot-soldier {
+    width: 30%;
+    height: 60%;
+    border: 1px solid #fff;
+    border-left-color: silver;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  .price-tiers p {
+    text-align: center;
+    padding: 10% 2% 2% 2%;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1.18;
+  }
+  .foot-soldier p {
+    line-height: 1;
+  }
 }
